@@ -31,6 +31,7 @@ int main(){
     myEvent[0].EventTime.Hour = 15;
     myEvent[0].EventTime.Min = 20;
     myEvent[0].EventTime.Sec = 30;
+    // usually used with for loop
     printf("myEvent[0] is Date: %d/%d/%d at %d:%d:%d\n", myEvent[0].EventDate.Day, myEvent[0].EventDate.Month, myEvent[0].EventDate.Year, myEvent[0].EventTime.Hour, myEvent[0].EventTime.Min, myEvent[0].EventTime.Sec);
 
     return 0;
